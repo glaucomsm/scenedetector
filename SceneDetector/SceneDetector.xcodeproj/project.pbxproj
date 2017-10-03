@@ -11,6 +11,8 @@
 		2A58E4241F84419C00FAAFBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A58E4231F84419C00FAAFBE /* Assets.xcassets */; };
 		2A58E4301F84427000FAAFBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A58E42F1F84427000FAAFBE /* Main.storyboard */; };
 		2A58E4321F84428300FAAFBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A58E4311F84428300FAAFBE /* LaunchScreen.storyboard */; };
+		2A58E4351F84477F00FAAFBE /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2A58E4341F84477B00FAAFBE /* GoogLeNetPlaces.mlmodel */; };
+		2A58E4371F84479400FAAFBE /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2A58E4361F84478F00FAAFBE /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		2A58E4281F84419C00FAAFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A58E42F1F84427000FAAFBE /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2A58E4311F84428300FAAFBE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A58E4341F84477B00FAAFBE /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
+		2A58E4361F84478F00FAAFBE /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 				2A58E41C1F84419C00FAAFBE /* AppDelegate.swift */,
 				2A58E4231F84419C00FAAFBE /* Assets.xcassets */,
 				2A58E4281F84419C00FAAFBE /* Info.plist */,
+				2A58E4331F8446BE00FAAFBE /* CoreMLModel */,
 				2A58E42E1F84425600FAAFBE /* Storyboards */,
 			);
 			path = SceneDetector;
@@ -67,6 +72,15 @@
 				2A58E4311F84428300FAAFBE /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2A58E4331F8446BE00FAAFBE /* CoreMLModel */ = {
+			isa = PBXGroup;
+			children = (
+				2A58E4341F84477B00FAAFBE /* GoogLeNetPlaces.mlmodel */,
+				2A58E4361F84478F00FAAFBE /* Inceptionv3.mlmodel */,
+			);
+			path = CoreMLModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +156,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A58E41D1F84419C00FAAFBE /* AppDelegate.swift in Sources */,
+				2A58E4371F84479400FAAFBE /* Inceptionv3.mlmodel in Sources */,
+				2A58E4351F84477F00FAAFBE /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
