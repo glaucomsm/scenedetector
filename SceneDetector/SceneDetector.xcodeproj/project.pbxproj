@@ -13,6 +13,7 @@
 		2A58E4321F84428300FAAFBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A58E4311F84428300FAAFBE /* LaunchScreen.storyboard */; };
 		2A58E4351F84477F00FAAFBE /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2A58E4341F84477B00FAAFBE /* GoogLeNetPlaces.mlmodel */; };
 		2A58E4371F84479400FAAFBE /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2A58E4361F84478F00FAAFBE /* Inceptionv3.mlmodel */; };
+		2A58E43A1F84483600FAAFBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A58E4391F84483600FAAFBE /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2A58E4311F84428300FAAFBE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A58E4341F84477B00FAAFBE /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 		2A58E4361F84478F00FAAFBE /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		2A58E4391F84483600FAAFBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2A58E41C1F84419C00FAAFBE /* AppDelegate.swift */,
 				2A58E4231F84419C00FAAFBE /* Assets.xcassets */,
 				2A58E4281F84419C00FAAFBE /* Info.plist */,
+				2A58E4381F84481C00FAAFBE /* Controller */,
 				2A58E4331F8446BE00FAAFBE /* CoreMLModel */,
 				2A58E42E1F84425600FAAFBE /* Storyboards */,
 			);
@@ -81,6 +84,14 @@
 				2A58E4361F84478F00FAAFBE /* Inceptionv3.mlmodel */,
 			);
 			path = CoreMLModel;
+			sourceTree = "<group>";
+		};
+		2A58E4381F84481C00FAAFBE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2A58E4391F84483600FAAFBE /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +168,7 @@
 			files = (
 				2A58E41D1F84419C00FAAFBE /* AppDelegate.swift in Sources */,
 				2A58E4371F84479400FAAFBE /* Inceptionv3.mlmodel in Sources */,
+				2A58E43A1F84483600FAAFBE /* ViewController.swift in Sources */,
 				2A58E4351F84477F00FAAFBE /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

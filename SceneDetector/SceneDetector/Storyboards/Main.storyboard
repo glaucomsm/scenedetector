@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="VC6-LT-5EE">
             <objects>
-                <viewController id="qcb-1u-dso" sceneMemberID="viewController">
+                <viewController id="qcb-1u-dso" customClass="ViewController" customModule="SceneDetector" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Qc-Ad-kwb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
